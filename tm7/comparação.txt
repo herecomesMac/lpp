@@ -1,0 +1,6 @@
+A comunicação não bloquente se mostrou ser mais eficiente. O que era esperado.
+Como a comunicação bloqueante pede para que os processos estejam o mais sincronizados possíveis, afinal, um 
+processo espera o dado do outro, este ato pode acrescentar muito tempo e deixar o processador ocioso.
+
+Entretanto, vale ressaltar que o tempo de comunicação da versão não bloquente é um pouco maior. Acredito que seja porque  um processo
+fica esperando, testando,se o outro ta pronto pra receber ou enviar. 

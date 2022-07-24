@@ -1,0 +1,4 @@
+A versao com MPI levou em media, para achar um elemento dentre 1000 elementos com 4 processos, 0,378s
+Ja a versao com OpenMp levou em media, para as mesmas condiçoes (1000 elementos com 4 threads ), 0,011s.
+
+Percebe-se que a versão com openMP tem um melhor desempenho do que a versão MPI. Acredito que isso se dê devido ao custo de comunicação além de que a criação de threads é menos custoso do que de processo do MPI. 

@@ -1,0 +1,3 @@
+Comparando as 3 abordagens, quanto maior a quantidade de elementos, maior era o tempo de execução. 
+Entretanto, o estranho, é que quanto mais elementos, mais a versão sequencial se tornava melhor.
+Os custos da paralelização não eram menores do que a versão sequencial, fazendo com que a versão sequencial fosse melhor em alguns casos. Acredito que isso ocorra por ações da paralelização, como a seção crítica, por exemplo.

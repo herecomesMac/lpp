@@ -1,0 +1,2 @@
+Acredito que a maior diferença entre os códigos é a complexidade.
+O Scatter facilita muito a implementação da dispersão de dados entre os processos.
